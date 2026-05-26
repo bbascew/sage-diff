@@ -1,0 +1,11 @@
+name: sage-diff
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - sage
+  - pytest
+  - ruff
+  - pip
+  - pip:
+      - -e .
